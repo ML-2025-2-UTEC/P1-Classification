@@ -17,10 +17,10 @@
     "score_riesgo_historico"
   ],
   "preprocessing_steps": [
-    "Imputaci\u00f3n de valores faltantes con mediana/moda",
-    "Normalizaci\u00f3n Z-score de todas las features",
+    "Imputacion de valores faltantes con mediana/moda",
+    "Normalizacion Z-score de todas las features",
     "Feature engineering: ratios financieros",
-    "Validaci\u00f3n de calidad completa"
+    "Validacion de calidad completa"
   ],
   "quality_checks_passed": true
 }
