@@ -1,0 +1,7 @@
+Experiment,Dataset,Model,Features,Best_Params,CV_F1_Score,Train_Accuracy,Train_F1,Optimization_Time
+feature_selected_LogisticRegression_optimized,feature_selected,LogisticRegression,20,"{'learning_rate': 0.1, 'max_iterations': 1500, 'regularization': 'l1', 'lambda_reg': 0.001}",0.9761170159322387,0.9819,0.9772588432869679,530.2906391620636
+feature_selected_SVM_optimized,feature_selected,SVM,20,"{'C': 10.0, 'kernel': 'linear', 'learning_rate': 0.0001}",0.9214299451013073,0.9527,0.928928561995099,1401.8077199459076
+feature_selected_KNN_optimized,feature_selected,KNN,20,"{'metric': 'manhattan', 'n_neighbors': 15, 'weights': 'uniform'}",0.744933146023374,0.8477,0.8018896042891366,6.3564770221710205
+pca_transformed_LogisticRegression_optimized,pca_transformed,LogisticRegression,18,"{'learning_rate': 0.1, 'max_iterations': 1500, 'regularization': 'l1', 'lambda_reg': 0.001}",0.9582035622645012,0.96805,0.9595683516205732,504.3347759246826
+pca_transformed_SVM_optimized,pca_transformed,SVM,18,"{'C': 10.0, 'kernel': 'linear', 'learning_rate': 0.0001}",0.9002238243128385,0.9398,0.9059274502909647,1423.5189979076385
+pca_transformed_KNN_optimized,pca_transformed,KNN,18,"{'metric': 'euclidean', 'n_neighbors': 11, 'weights': 'distance'}",0.7377742054727053,1.0,1.0,5.9121410846710205

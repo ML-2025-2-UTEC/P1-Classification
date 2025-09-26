@@ -1,0 +1,33 @@
+{
+  "LogisticRegression": {
+    "best_params": {
+      "learning_rate": 0.1,
+      "max_iterations": 1500,
+      "regularization": "l1",
+      "lambda_reg": 0.001
+    },
+    "best_f1_score": 0.9761170159322387,
+    "best_dataset": "feature_selected",
+    "optimization_time": 530.2906391620636
+  },
+  "SVM": {
+    "best_params": {
+      "C": 10.0,
+      "kernel": "linear",
+      "learning_rate": 0.0001
+    },
+    "best_f1_score": 0.9214299451013073,
+    "best_dataset": "feature_selected",
+    "optimization_time": 1401.8077199459076
+  },
+  "KNN": {
+    "best_params": {
+      "metric": "manhattan",
+      "n_neighbors": 15,
+      "weights": "uniform"
+    },
+    "best_f1_score": 0.744933146023374,
+    "best_dataset": "feature_selected",
+    "optimization_time": 6.3564770221710205
+  }
+}
