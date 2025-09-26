@@ -11,7 +11,7 @@ Contiene implementaciones manuales de técnicas de interpretabilidad como:
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-from .evaluation.metrics_manual import balanced_accuracy_manual, matriz_confusion_manual
+from evaluation.metrics_manual import balanced_accuracy_manual, matriz_confusion_manual
 
 # --- 1. Importancia de Características Global ---
 

@@ -6,13 +6,10 @@ Este módulo contiene funciones para cargar datos crudos y guardar datos procesa
 import os
 import pandas as pd
 
-# Carpeta raíz del proyecto (la carpeta donde está este script o un nivel arriba si lo quieres fijo).
-RUTA_PROYECTO = os.path.abspath(os.path.join(os.path.dirname(__file__), "..",".."))
-
-# Subcarpetas de datos
+# Carpeta raíz del proyecto = un nivel arriba de src/
+RUTA_PROYECTO = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 RUTA_DATOS_CRUDOS = os.path.join(RUTA_PROYECTO, "data", "raw")
 RUTA_DATOS_PROCESADOS = os.path.join(RUTA_PROYECTO, "data", "processed")
-
 
 
 def cargar_csv_crudo(nombre_archivo: str) -> pd.DataFrame:

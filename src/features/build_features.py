@@ -13,7 +13,7 @@ import numpy as np
 import os
 
 # Suponemos que loader.py está en un directorio hermano `data`
-from src.data.loader import cargar_csv_crudo, guardar_df_procesado
+from data.loader import cargar_csv_crudo, guardar_df_procesado
 
 # --- Funciones de Ingeniería de Características ---
 

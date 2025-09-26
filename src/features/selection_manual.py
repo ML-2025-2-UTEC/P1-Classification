@@ -10,7 +10,7 @@ y cálculo de VIF (Variance Inflation Factor).
 import pandas as pd
 import numpy as np
 from scipy.stats import f_oneway, chi2_contingency
-from src.models.algorithms_manual import RegresionLogisticaManual
+from models.algorithms_manual import RegresionLogisticaManual
 
 # --- 1. SelectKBest Manual ---
 
