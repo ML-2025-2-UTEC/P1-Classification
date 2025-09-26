@@ -1,0 +1,26 @@
+{
+  "original_features_count": 35,
+  "processed_features_count": 37,
+  "target_classes": [
+    "Alto",
+    "Bajo",
+    "Medio"
+  ],
+  "target_encoding": {
+    "Alto": 0,
+    "Bajo": 1,
+    "Medio": 2
+  },
+  "engineered_features": [
+    "ratio_deuda_ingresos",
+    "score_capacidad_pago",
+    "score_riesgo_historico"
+  ],
+  "preprocessing_steps": [
+    "Imputacion de valores faltantes con mediana/moda",
+    "Normalizacion Z-score de todas las features",
+    "Feature engineering: ratios financieros",
+    "Validacion de calidad completa"
+  ],
+  "quality_checks_passed": true
+}

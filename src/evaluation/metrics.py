@@ -237,12 +237,10 @@ def cost_sensitive_evaluation(y_true, y_pred, cost_matrix=None):
     - Classifying Low risk as High risk (false positive) is less costly
     """
     if cost_matrix is None:
-        # Default cost matrix for loan risk (Low=0, Medium=1, High=2)
-        # Rows: true class, Columns: predicted class
         cost_matrix = np.array([
-            [0, 1, 2],    # True Low:  correctly classified=0, predicted Medium=1, predicted High=2
-            [2, 0, 1],    # True Medium: predicted Low=2, correctly classified=0, predicted High=1
-            [10, 5, 0]    # True High: predicted Low=10 (very costly), predicted Medium=5, correctly classified=0
+            [0, 1, 2],
+            [2, 0, 1],
+            [10, 5, 0]
         ])
     
     cm = confusion_matrix(y_true, y_pred, n_classes=3)
