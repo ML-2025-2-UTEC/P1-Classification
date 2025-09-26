@@ -9,7 +9,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.preprocessing import StandardScaler
 from sklearn.pipeline import Pipeline
 
-def crear_pipeline_knn(**kwargs):
+def crear_pipeline_knn(n_neighbors=5, metric='euclidean', weights='uniform'):
     """
     Crea un pipeline de scikit-learn que primero escala los datos y luego
     aplica el clasificador KNN.
@@ -23,7 +23,7 @@ def crear_pipeline_knn(**kwargs):
     """
     pipeline = Pipeline([
         ('escalador', StandardScaler()),
-        ('knn', KNeighborsClassifier(**kwargs))
+        ('knn', KNeighborsClassifier(n_neighbors=n_neighbors, weights=weights, metric=metric))
     ])
     return pipeline
 
