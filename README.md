@@ -15,7 +15,7 @@
     <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
 </div>
 
-## � Tabla de Contenidos
+## Tabla de Contenidos
 1. [Información del Proyecto](#informacion-del-proyecto)
 2. [Estructura del Proyecto](#estructura-del-proyecto)
 3. [Metodología Implementada](#metodologia-implementada)
