@@ -33,5 +33,7 @@ sector_laboral
 numero_empleos_ultimos_5_anos
 frecuencia_transacciones_mensuales
 ratio_deuda_ingresos
+ratio_ingreso_deuda
+capacidad_ahorro
 score_capacidad_pago
 score_riesgo_historico

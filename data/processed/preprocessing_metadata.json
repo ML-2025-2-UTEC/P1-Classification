@@ -1,6 +1,6 @@
 {
   "original_features_count": 35,
-  "processed_features_count": 37,
+  "processed_features_count": 39,
   "target_classes": [
     "Alto",
     "Bajo",
@@ -13,6 +13,8 @@
   },
   "engineered_features": [
     "ratio_deuda_ingresos",
+    "ratio_ingreso_deuda",
+    "capacidad_ahorro",
     "score_capacidad_pago",
     "score_riesgo_historico"
   ],
